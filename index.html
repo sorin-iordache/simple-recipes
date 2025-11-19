@@ -3,22 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Simpe Recipes</title>
+    <title>Simple Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Simpe Recipes</h1>
+      <h1>Simple Recipes</h1>
+      <nav>
+        <ul>
+          <li><a href="/pages/recipe1.html">Spaghetti Aglio e Olio</a></li>
+          <li><a href="/pages/recipe2.html">Vegetable Omelette</a></li>
+          <li>
+            <a href="/pages/recipe3.html">Chicken and Avocado Sandwich</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="/pages/recipe1.html">Spaghetti Aglio e Olio</a></li>
-        <li><a href="/pages/recipe2.html">Vegetable Omelette</a></li>
-        <li><a href="/pages/recipe3.html">Chicken and Avocado Sandwich</a></li>
-      </ul>
-    </nav>
-    <main></main>
-
+    <main>
+      <section class="recipe">
+        <h2>Spaghetti Aglio e Olio</h2>
+        <img src="images/pasta.jpg" alt="pasta" />
+        <p>
+          A simple yet flavorful pasta dish made with garlic, olive oil, and a
+          touch of chili for the perfect kick.
+        </p>
+        <button><a href="recipe1.html">Full Recipe</a></button>
+      </section>
+      <section class="recipe">
+        <h2>Vegetable Omelette</h2>
+        <img src="images/egg.jpg" alt="Omelette" />
+        <p>
+          A light and fluffy omelette packed with fresh veggies—perfect for a
+          quick and healthy breakfast.
+        </p>
+        <button><a href="recipe2.html">Full Recipe</a></button>
+      </section>
+      <section class="recipe">
+        <h2>Chicken and Avocado Sandwich</h2>
+        <img src="images/chicken.jpg" alt="Chicken sandwich" />
+        <p>
+          A hearty, fresh sandwich combining tender chicken and creamy avocado
+          for a satisfying meal anytime.
+        </p>
+        <button><a href="recipe3.html">Full Recipe</a></button>
+      </section>
+    </main>
     <footer>
       <p>&copy; 2025 All rights reserved.</p>
     </footer>
